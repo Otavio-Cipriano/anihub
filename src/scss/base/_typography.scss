@@ -1,0 +1,12 @@
+a{
+    color: var(--primary-clr-100);
+    text-decoration: none;
+
+    &:hover, &:active{
+        color: var(--primary-clr-50);
+    }
+}
+
+.text-center{
+    text-align: center;
+}

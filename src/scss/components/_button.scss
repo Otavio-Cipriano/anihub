@@ -1,0 +1,16 @@
+button{
+    border: none;
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.primary-btn{
+    background-color: var(--primary-clr-100);
+    color: white;
+    font-weight: bold;
+
+    &:hover, &:active{
+        background-color: var(--primary-clr-80);
+        cursor: pointer;
+    }
+}
